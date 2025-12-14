@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ear_msgs__py",
+		"source" : "/home/micka/orlsurg/ros2_ws/build/ear_msgs/ear_msgs__py"
+	}
+}

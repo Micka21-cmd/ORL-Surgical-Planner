@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ear_msgs/action/PlanPath.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+#include "nav_msgs/msg/Path.idl"
+
+module ear_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct PlanPath_Goal {
+      geometry_msgs::msg::PoseStamped entry;
+
+      geometry_msgs::msg::PoseStamped target;
+
+      float tool_diam_mm;
+
+      float safety_margin_mm;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct PlanPath_Result {
+      nav_msgs::msg::Path path;
+
+      float min_clearance_mm;
+
+      float est_time_s;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct PlanPath_Feedback {
+      float progress;
+    };
+  };
+};

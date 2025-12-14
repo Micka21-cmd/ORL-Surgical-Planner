@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b4c928c141272bd643bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ear_segmentation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ear_segmentation_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ear_segmentation_egg-00bcbcb822ff45e8d61a.json",
+					"name" : "ament_cmake_python_build_ear_segmentation_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ear_segmentation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ear_segmentation-9a662aa1ddb521b136ec.json",
+					"name" : "ament_cmake_python_copy_ear_segmentation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ear_segmentation_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ear_segmentation_setup-07f04be48c2acfce1e9f.json",
+					"name" : "ament_cmake_python_copy_ear_segmentation_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ear_segmentation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ear_segmentation_uninstall-2e28b9f18944c2022a54.json",
+					"name" : "ear_segmentation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b6725e6281868deb1d92.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/micka/orlsurg/ros2_ws/build/ear_segmentation",
+		"source" : "/home/micka/orlsurg/ros2_ws/src/ear_segmentation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

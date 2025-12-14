@@ -1,0 +1,4 @@
+string mask_path
+---
+geometry_msgs/PoseArray centerline
+string sdf_path

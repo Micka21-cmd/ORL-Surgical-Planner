@@ -1,0 +1,9 @@
+{
+  "package_name": "ear_msgs",
+  "non_idl_tuples": [
+    "/home/micka/orlsurg/ros2_ws/src/ear_msgs:srv/SegmentEar.srv",
+    "/home/micka/orlsurg/ros2_ws/src/ear_msgs:srv/Centerline.srv",
+    "/home/micka/orlsurg/ros2_ws/src/ear_msgs:srv/Register.srv",
+    "/home/micka/orlsurg/ros2_ws/src/ear_msgs:action/PlanPath.action"
+  ]
+}

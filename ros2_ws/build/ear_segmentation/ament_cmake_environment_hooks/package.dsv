@@ -1,0 +1,4 @@
+source;share/ear_segmentation/local_setup.bash
+source;share/ear_segmentation/local_setup.dsv
+source;share/ear_segmentation/local_setup.sh
+source;share/ear_segmentation/local_setup.zsh

@@ -1,0 +1,80 @@
+[0.011s] Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_centerline': /usr/bin/cmake /home/micka/orlsurg/ros2_ws/src/ear_centerline -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/micka/orlsurg/ros2_ws/install
+[0.084s] -- The C compiler identification is GNU 13.3.0
+[0.360s] -- The CXX compiler identification is GNU 13.3.0
+[0.588s] -- Detecting C compiler ABI info
+[0.727s] -- Detecting C compiler ABI info - done
+[0.733s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.733s] -- Detecting C compile features
+[0.734s] -- Detecting C compile features - done
+[0.767s] -- Detecting CXX compiler ABI info
+[0.910s] -- Detecting CXX compiler ABI info - done
+[0.916s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.916s] -- Detecting CXX compile features
+[0.917s] -- Detecting CXX compile features - done
+[0.919s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.032s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.112s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.113s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.208s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.217s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.419s] -- Configuring done (1.4s)
+[1.429s] -- Generating done (0.0s)
+[1.430s] [33mCMake Warning:
+[1.430s]   Manually-specified variables were not used by the project:
+[1.430s] 
+[1.430s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.430s]     CATKIN_SYMLINK_INSTALL
+[1.430s] 
+[1.430s] [0m
+[1.432s] -- Build files have been written to: /home/micka/orlsurg/ros2_ws/build/ear_centerline
+[1.439s] Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_centerline' returned '0': /usr/bin/cmake /home/micka/orlsurg/ros2_ws/src/ear_centerline -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/micka/orlsurg/ros2_ws/install
+[1.440s] Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_centerline': /usr/bin/cmake --build /home/micka/orlsurg/ros2_ws/build/ear_centerline -- -j12 -l12
+[1.498s] Built target ament_cmake_python_copy_ear_centerline
+[1.498s] Built target ament_cmake_python_copy_ear_centerline_setup
+[1.645s] running egg_info
+[1.645s] creating ear_centerline.egg-info
+[1.660s] writing ear_centerline.egg-info/PKG-INFO
+[1.660s] writing dependency_links to ear_centerline.egg-info/dependency_links.txt
+[1.661s] writing top-level names to ear_centerline.egg-info/top_level.txt
+[1.661s] writing manifest file 'ear_centerline.egg-info/SOURCES.txt'
+[1.696s] reading manifest file 'ear_centerline.egg-info/SOURCES.txt'
+[1.696s] writing manifest file 'ear_centerline.egg-info/SOURCES.txt'
+[1.717s] Built target ament_cmake_python_build_ear_centerline_egg
+[1.730s] Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_centerline' returned '0': /usr/bin/cmake --build /home/micka/orlsurg/ros2_ws/build/ear_centerline -- -j12 -l12
+[1.739s] Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_centerline': /usr/bin/cmake --install /home/micka/orlsurg/ros2_ws/build/ear_centerline
+[1.747s] -- Install configuration: ""
+[1.749s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/environment/pythonpath.sh
+[1.749s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/environment/pythonpath.dsv
+[1.749s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_centerline-0.0.1-py3.12.egg-info
+[1.750s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_centerline-0.0.1-py3.12.egg-info/PKG-INFO
+[1.750s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_centerline-0.0.1-py3.12.egg-info/top_level.txt
+[1.750s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_centerline-0.0.1-py3.12.egg-info/SOURCES.txt
+[1.751s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_centerline-0.0.1-py3.12.egg-info/dependency_links.txt
+[1.751s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_centerline
+[1.751s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_centerline/centerline_node.py
+[1.752s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_centerline/__init__.py
+[1.778s] Listing '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_centerline'...
+[1.778s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_centerline/__init__.py'...
+[1.778s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_centerline/centerline_node.py'...
+[1.783s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/ear_centerline/centerline_node.py
+[1.783s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/package.xml
+[1.783s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages
+[1.785s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages/ear_centerline
+[1.785s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/ear_centerline
+[1.786s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/ear_centerline
+[1.786s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/environment/ament_prefix_path.sh
+[1.786s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/environment/ament_prefix_path.dsv
+[1.786s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/environment/path.sh
+[1.786s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/environment/path.dsv
+[1.786s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/local_setup.bash
+[1.787s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/local_setup.sh
+[1.787s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/local_setup.zsh
+[1.787s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/local_setup.dsv
+[1.787s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/package.dsv
+[1.787s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages/ear_centerline
+[1.788s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/cmake/ear_centerlineConfig.cmake
+[1.788s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/cmake/ear_centerlineConfig-version.cmake
+[1.788s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/share/ear_centerline/package.xml
+[1.790s] Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_centerline' returned '0': /usr/bin/cmake --install /home/micka/orlsurg/ros2_ws/build/ear_centerline

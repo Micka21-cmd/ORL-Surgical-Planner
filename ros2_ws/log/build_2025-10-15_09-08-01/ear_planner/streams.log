@@ -1,0 +1,89 @@
+[0.106s] Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_planner': /usr/bin/cmake /home/micka/orlsurg/ros2_ws/src/ear_planner -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/micka/orlsurg/ros2_ws/install
+[0.178s] -- The C compiler identification is GNU 13.3.0
+[0.426s] -- The CXX compiler identification is GNU 13.3.0
+[0.660s] -- Detecting C compiler ABI info
+[0.789s] -- Detecting C compiler ABI info - done
+[0.796s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.796s] -- Detecting C compile features
+[0.796s] -- Detecting C compile features - done
+[0.829s] -- Detecting CXX compiler ABI info
+[0.972s] -- Detecting CXX compiler ABI info - done
+[0.978s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.978s] -- Detecting CXX compile features
+[0.979s] -- Detecting CXX compile features - done
+[0.981s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.092s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.169s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.171s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.265s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.280s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.343s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.369s] -- Found ear_msgs: 0.0.1 (/home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake)
+[1.556s] -- Configuring done (1.4s)
+[1.567s] -- Generating done (0.0s)
+[1.568s] [33mCMake Warning:
+[1.568s]   Manually-specified variables were not used by the project:
+[1.568s] 
+[1.568s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.568s]     CATKIN_SYMLINK_INSTALL
+[1.568s] 
+[1.568s] [0m
+[1.570s] -- Build files have been written to: /home/micka/orlsurg/ros2_ws/build/ear_planner
+[1.577s] Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_planner' returned '0': /usr/bin/cmake /home/micka/orlsurg/ros2_ws/src/ear_planner -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/micka/orlsurg/ros2_ws/install
+[1.577s] Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_planner': /usr/bin/cmake --build /home/micka/orlsurg/ros2_ws/build/ear_planner -- -j12 -l12
+[1.634s] Built target ament_cmake_python_copy_ear_planner_setup
+[1.634s] Built target ament_cmake_python_copy_ear_planner
+[1.775s] running egg_info
+[1.776s] creating ear_planner.egg-info
+[1.787s] writing ear_planner.egg-info/PKG-INFO
+[1.788s] writing dependency_links to ear_planner.egg-info/dependency_links.txt
+[1.788s] writing top-level names to ear_planner.egg-info/top_level.txt
+[1.788s] writing manifest file 'ear_planner.egg-info/SOURCES.txt'
+[1.822s] reading manifest file 'ear_planner.egg-info/SOURCES.txt'
+[1.822s] writing manifest file 'ear_planner.egg-info/SOURCES.txt'
+[1.843s] Built target ament_cmake_python_build_ear_planner_egg
+[1.855s] Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_planner' returned '0': /usr/bin/cmake --build /home/micka/orlsurg/ros2_ws/build/ear_planner -- -j12 -l12
+[1.856s] Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_planner': /usr/bin/cmake --install /home/micka/orlsurg/ros2_ws/build/ear_planner
+[1.864s] -- Install configuration: ""
+[1.865s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/environment/pythonpath.sh
+[1.865s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/environment/pythonpath.dsv
+[1.865s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner-0.0.1-py3.12.egg-info
+[1.865s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner-0.0.1-py3.12.egg-info/PKG-INFO
+[1.865s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner-0.0.1-py3.12.egg-info/top_level.txt
+[1.866s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner-0.0.1-py3.12.egg-info/SOURCES.txt
+[1.866s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner-0.0.1-py3.12.egg-info/dependency_links.txt
+[1.866s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner
+[1.866s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner/csv_path_publisher.py
+[1.866s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner/planner_action_server.py
+[1.866s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner/__init__.py
+[1.895s] Listing '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner'...
+[1.895s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner/__init__.py'...
+[1.895s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner/csv_path_publisher.py'...
+[1.895s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner/planner_action_server.py'...
+[1.899s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/ear_planner/planner_action_server.py
+[1.899s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/ear_planner/csv_path_publisher.py
+[1.899s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/launch
+[1.900s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/launch/__pycache__
+[1.900s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/launch/__pycache__/planning_demo.launch.cpython-312.pyc
+[1.900s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/launch/planning_demo.launch.py
+[1.901s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/package.xml
+[1.901s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages
+[1.901s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages/ear_planner
+[1.901s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/ear_planner
+[1.901s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/ear_planner
+[1.901s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/environment/ament_prefix_path.sh
+[1.902s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/environment/ament_prefix_path.dsv
+[1.902s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/environment/path.sh
+[1.902s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/environment/path.dsv
+[1.902s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/local_setup.bash
+[1.902s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/local_setup.sh
+[1.902s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/local_setup.zsh
+[1.902s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/local_setup.dsv
+[1.903s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/package.dsv
+[1.903s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages/ear_planner
+[1.903s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/cmake/ear_plannerConfig.cmake
+[1.903s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/cmake/ear_plannerConfig-version.cmake
+[1.903s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/package.xml
+[1.906s] Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_planner' returned '0': /usr/bin/cmake --install /home/micka/orlsurg/ros2_ws/build/ear_planner

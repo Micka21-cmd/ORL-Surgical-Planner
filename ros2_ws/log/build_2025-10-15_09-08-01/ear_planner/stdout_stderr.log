@@ -1,0 +1,83 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found ear_msgs: 0.0.1 (/home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake)
+-- Configuring done (1.4s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+    CATKIN_SYMLINK_INSTALL
+
+[0m
+-- Build files have been written to: /home/micka/orlsurg/ros2_ws/build/ear_planner
+Built target ament_cmake_python_copy_ear_planner_setup
+Built target ament_cmake_python_copy_ear_planner
+running egg_info
+creating ear_planner.egg-info
+writing ear_planner.egg-info/PKG-INFO
+writing dependency_links to ear_planner.egg-info/dependency_links.txt
+writing top-level names to ear_planner.egg-info/top_level.txt
+writing manifest file 'ear_planner.egg-info/SOURCES.txt'
+reading manifest file 'ear_planner.egg-info/SOURCES.txt'
+writing manifest file 'ear_planner.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ear_planner_egg
+-- Install configuration: ""
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/environment/pythonpath.sh
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/environment/pythonpath.dsv
+-- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner-0.0.1-py3.12.egg-info
+-- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner-0.0.1-py3.12.egg-info/PKG-INFO
+-- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner-0.0.1-py3.12.egg-info/top_level.txt
+-- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner-0.0.1-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner-0.0.1-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner
+-- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner/csv_path_publisher.py
+-- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner/planner_action_server.py
+-- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner/__init__.py
+Listing '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner'...
+Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner/__init__.py'...
+Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner/csv_path_publisher.py'...
+Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_planner/planner_action_server.py'...
+-- Installing: /home/micka/orlsurg/ros2_ws/install/lib/ear_planner/planner_action_server.py
+-- Installing: /home/micka/orlsurg/ros2_ws/install/lib/ear_planner/csv_path_publisher.py
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/launch
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/launch/__pycache__
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/launch/__pycache__/planning_demo.launch.cpython-312.pyc
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/launch/planning_demo.launch.py
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/package.xml
+-- Up-to-date: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages/ear_planner
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/ear_planner
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/ear_planner
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/environment/ament_prefix_path.sh
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/environment/ament_prefix_path.dsv
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/environment/path.sh
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/environment/path.dsv
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/local_setup.bash
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/local_setup.sh
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/local_setup.zsh
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/local_setup.dsv
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/package.dsv
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages/ear_planner
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/cmake/ear_plannerConfig.cmake
+-- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/cmake/ear_plannerConfig-version.cmake
+-- Up-to-date: /home/micka/orlsurg/ros2_ws/install/share/ear_planner/package.xml

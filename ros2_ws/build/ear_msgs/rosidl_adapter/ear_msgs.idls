@@ -1,0 +1,4 @@
+/home/micka/orlsurg/ros2_ws/build/ear_msgs/rosidl_adapter/ear_msgs:srv/SegmentEar.idl
+/home/micka/orlsurg/ros2_ws/build/ear_msgs/rosidl_adapter/ear_msgs:srv/Centerline.idl
+/home/micka/orlsurg/ros2_ws/build/ear_msgs/rosidl_adapter/ear_msgs:srv/Register.idl
+/home/micka/orlsurg/ros2_ws/build/ear_msgs/rosidl_adapter/ear_msgs:action/PlanPath.idl

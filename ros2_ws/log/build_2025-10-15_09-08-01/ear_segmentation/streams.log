@@ -1,0 +1,75 @@
+[0.100s] Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_segmentation': /usr/bin/cmake /home/micka/orlsurg/ros2_ws/src/ear_segmentation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/micka/orlsurg/ros2_ws/install
+[0.175s] -- The C compiler identification is GNU 13.3.0
+[0.424s] -- The CXX compiler identification is GNU 13.3.0
+[0.657s] -- Detecting C compiler ABI info
+[0.786s] -- Detecting C compiler ABI info - done
+[0.793s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.793s] -- Detecting C compile features
+[0.793s] -- Detecting C compile features - done
+[0.826s] -- Detecting CXX compiler ABI info
+[0.968s] -- Detecting CXX compiler ABI info - done
+[0.974s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.975s] -- Detecting CXX compile features
+[0.975s] -- Detecting CXX compile features - done
+[0.978s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.090s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.167s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.321s] -- Configuring done (1.2s)
+[1.331s] -- Generating done (0.0s)
+[1.331s] [33mCMake Warning:
+[1.331s]   Manually-specified variables were not used by the project:
+[1.331s] 
+[1.332s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.332s]     CATKIN_SYMLINK_INSTALL
+[1.332s] 
+[1.332s] [0m
+[1.333s] -- Build files have been written to: /home/micka/orlsurg/ros2_ws/build/ear_segmentation
+[1.338s] Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_segmentation' returned '0': /usr/bin/cmake /home/micka/orlsurg/ros2_ws/src/ear_segmentation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/micka/orlsurg/ros2_ws/install
+[1.338s] Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_segmentation': /usr/bin/cmake --build /home/micka/orlsurg/ros2_ws/build/ear_segmentation -- -j12 -l12
+[1.394s] Built target ament_cmake_python_copy_ear_segmentation
+[1.394s] Built target ament_cmake_python_copy_ear_segmentation_setup
+[1.535s] running egg_info
+[1.536s] creating ear_segmentation.egg-info
+[1.547s] writing ear_segmentation.egg-info/PKG-INFO
+[1.547s] writing dependency_links to ear_segmentation.egg-info/dependency_links.txt
+[1.547s] writing top-level names to ear_segmentation.egg-info/top_level.txt
+[1.547s] writing manifest file 'ear_segmentation.egg-info/SOURCES.txt'
+[1.581s] reading manifest file 'ear_segmentation.egg-info/SOURCES.txt'
+[1.581s] writing manifest file 'ear_segmentation.egg-info/SOURCES.txt'
+[1.602s] Built target ament_cmake_python_build_ear_segmentation_egg
+[1.612s] Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_segmentation' returned '0': /usr/bin/cmake --build /home/micka/orlsurg/ros2_ws/build/ear_segmentation -- -j12 -l12
+[1.613s] Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_segmentation': /usr/bin/cmake --install /home/micka/orlsurg/ros2_ws/build/ear_segmentation
+[1.621s] -- Install configuration: ""
+[1.621s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/environment/pythonpath.sh
+[1.622s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/environment/pythonpath.dsv
+[1.622s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_segmentation-0.0.1-py3.12.egg-info
+[1.622s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_segmentation-0.0.1-py3.12.egg-info/PKG-INFO
+[1.623s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_segmentation-0.0.1-py3.12.egg-info/top_level.txt
+[1.623s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_segmentation-0.0.1-py3.12.egg-info/SOURCES.txt
+[1.623s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_segmentation-0.0.1-py3.12.egg-info/dependency_links.txt
+[1.624s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_segmentation
+[1.624s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_segmentation/segment_node.py
+[1.624s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_segmentation/__init__.py
+[1.650s] Listing '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_segmentation'...
+[1.650s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_segmentation/__init__.py'...
+[1.650s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_segmentation/segment_node.py'...
+[1.655s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/ear_segmentation/segment_node.py
+[1.655s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/package.xml
+[1.656s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages
+[1.656s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages/ear_segmentation
+[1.656s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/ear_segmentation
+[1.656s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/ear_segmentation
+[1.656s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/environment/ament_prefix_path.sh
+[1.656s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/environment/ament_prefix_path.dsv
+[1.657s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/environment/path.sh
+[1.657s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/environment/path.dsv
+[1.657s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/local_setup.bash
+[1.657s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/local_setup.sh
+[1.657s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/local_setup.zsh
+[1.657s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/local_setup.dsv
+[1.658s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/package.dsv
+[1.658s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages/ear_segmentation
+[1.658s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/cmake/ear_segmentationConfig.cmake
+[1.658s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/cmake/ear_segmentationConfig-version.cmake
+[1.659s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/share/ear_segmentation/package.xml
+[1.660s] Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_segmentation' returned '0': /usr/bin/cmake --install /home/micka/orlsurg/ros2_ws/build/ear_segmentation

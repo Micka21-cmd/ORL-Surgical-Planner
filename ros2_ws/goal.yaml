@@ -1,0 +1,18 @@
+entry:
+  header:
+    frame_id: mri
+  pose:
+    position:
+      x: 40.0
+      y: 29.5
+      z: 0.0
+safety_margin_mm: 0.5
+target:
+  header:
+    frame_id: mri
+  pose:
+    position:
+      x: 39.5
+      y: 51.0
+      z: 78.5
+tool_diam_mm: 1.5

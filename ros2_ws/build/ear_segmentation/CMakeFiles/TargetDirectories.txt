@@ -1,0 +1,12 @@
+/home/micka/orlsurg/ros2_ws/build/ear_segmentation/CMakeFiles/uninstall.dir
+/home/micka/orlsurg/ros2_ws/build/ear_segmentation/CMakeFiles/ear_segmentation_uninstall.dir
+/home/micka/orlsurg/ros2_ws/build/ear_segmentation/CMakeFiles/ament_cmake_python_copy_ear_segmentation.dir
+/home/micka/orlsurg/ros2_ws/build/ear_segmentation/CMakeFiles/ament_cmake_python_copy_ear_segmentation_setup.dir
+/home/micka/orlsurg/ros2_ws/build/ear_segmentation/CMakeFiles/ament_cmake_python_build_ear_segmentation_egg.dir
+/home/micka/orlsurg/ros2_ws/build/ear_segmentation/CMakeFiles/test.dir
+/home/micka/orlsurg/ros2_ws/build/ear_segmentation/CMakeFiles/edit_cache.dir
+/home/micka/orlsurg/ros2_ws/build/ear_segmentation/CMakeFiles/rebuild_cache.dir
+/home/micka/orlsurg/ros2_ws/build/ear_segmentation/CMakeFiles/list_install_components.dir
+/home/micka/orlsurg/ros2_ws/build/ear_segmentation/CMakeFiles/install.dir
+/home/micka/orlsurg/ros2_ws/build/ear_segmentation/CMakeFiles/install/local.dir
+/home/micka/orlsurg/ros2_ws/build/ear_segmentation/CMakeFiles/install/strip.dir

@@ -1,0 +1,363 @@
+[0.011s] Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_msgs': /usr/bin/cmake /home/micka/orlsurg/ros2_ws/src/ear_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/micka/orlsurg/ros2_ws/install
+[0.089s] -- The C compiler identification is GNU 13.3.0
+[0.365s] -- The CXX compiler identification is GNU 13.3.0
+[0.596s] -- Detecting C compiler ABI info
+[0.733s] -- Detecting C compiler ABI info - done
+[0.739s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.740s] -- Detecting C compile features
+[0.740s] -- Detecting C compile features - done
+[0.772s] -- Detecting CXX compiler ABI info
+[0.915s] -- Detecting CXX compiler ABI info - done
+[0.921s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.921s] -- Detecting CXX compile features
+[0.922s] -- Detecting CXX compile features - done
+[0.924s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.037s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.117s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.252s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.255s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.265s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.289s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.853s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.807s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.809s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.915s] -- Found PythonExtra: /usr/bin/python3  
+[3.249s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.307s] -- Configuring done (3.3s)
+[3.370s] -- Generating done (0.1s)
+[3.373s] [33mCMake Warning:
+[3.373s]   Manually-specified variables were not used by the project:
+[3.373s] 
+[3.373s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[3.373s]     CATKIN_SYMLINK_INSTALL
+[3.373s] 
+[3.373s] [0m
+[3.381s] -- Build files have been written to: /home/micka/orlsurg/ros2_ws/build/ear_msgs
+[3.390s] Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_msgs' returned '0': /usr/bin/cmake /home/micka/orlsurg/ros2_ws/src/ear_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/micka/orlsurg/ros2_ws/install
+[3.391s] Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_msgs': /usr/bin/cmake --build /home/micka/orlsurg/ros2_ws/build/ear_msgs -- -j12 -l12
+[3.442s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.451s] [  1%] Built target ament_cmake_python_copy_ear_msgs
+[3.594s] running egg_info
+[3.595s] creating ear_msgs.egg-info
+[3.607s] writing ear_msgs.egg-info/PKG-INFO
+[3.607s] writing dependency_links to ear_msgs.egg-info/dependency_links.txt
+[3.607s] writing top-level names to ear_msgs.egg-info/top_level.txt
+[3.607s] writing manifest file 'ear_msgs.egg-info/SOURCES.txt'
+[3.613s] [  1%] Built target ear_msgs__rosidl_generator_type_description
+[3.624s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.635s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.645s] reading manifest file 'ear_msgs.egg-info/SOURCES.txt'
+[3.646s] writing manifest file 'ear_msgs.egg-info/SOURCES.txt'
+[3.668s] [  4%] Built target ament_cmake_python_build_ear_msgs_egg
+[4.043s] [  4%] Built target ear_msgs__cpp
+[4.112s] [ 12%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_c.dir/rosidl_generator_c/ear_msgs/srv/detail/centerline__description.c.o[0m
+[4.112s] [ 12%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_c.dir/rosidl_generator_c/ear_msgs/srv/detail/register__functions.c.o[0m
+[4.112s] [ 12%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_c.dir/rosidl_generator_c/ear_msgs/srv/detail/segment_ear__functions.c.o[0m
+[4.112s] [ 12%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_c.dir/rosidl_generator_c/ear_msgs/srv/detail/segment_ear__type_support.c.o[0m
+[4.112s] [ 14%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_c.dir/rosidl_generator_c/ear_msgs/srv/detail/segment_ear__description.c.o[0m
+[4.113s] [ 12%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_c.dir/rosidl_generator_c/ear_msgs/srv/detail/centerline__type_support.c.o[0m
+[4.113s] [ 17%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_c.dir/rosidl_generator_c/ear_msgs/action/detail/plan_path__description.c.o[0m
+[4.113s] [ 18%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_c.dir/rosidl_generator_c/ear_msgs/srv/detail/register__type_support.c.o[0m
+[4.113s] [ 17%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_c.dir/rosidl_generator_c/ear_msgs/srv/detail/register__description.c.o[0m
+[4.113s] [ 20%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_c.dir/rosidl_generator_c/ear_msgs/srv/detail/centerline__functions.c.o[0m
+[4.114s] [ 23%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_c.dir/rosidl_generator_c/ear_msgs/action/detail/plan_path__functions.c.o[0m
+[4.114s] [ 23%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_c.dir/rosidl_generator_c/ear_msgs/action/detail/plan_path__type_support.c.o[0m
+[4.252s] [ 25%] [32m[1mLinking C shared library libear_msgs__rosidl_generator_c.so[0m
+[4.336s] [ 25%] Built target ear_msgs__rosidl_generator_c
+[4.347s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.347s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.347s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.347s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.348s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.348s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.619s] [ 35%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ear_msgs/srv/register__type_support.cpp.o[0m
+[4.619s] [ 37%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ear_msgs/srv/centerline__type_support.cpp.o[0m
+[4.619s] [ 39%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ear_msgs/srv/segment_ear__type_support.cpp.o[0m
+[4.619s] [ 40%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ear_msgs/action/plan_path__type_support.cpp.o[0m
+[4.664s] [ 45%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ear_msgs/srv/register__type_support.cpp.o[0m
+[4.664s] [ 45%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ear_msgs/srv/centerline__type_support.cpp.o[0m
+[4.664s] [ 45%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ear_msgs/srv/segment_ear__type_support.cpp.o[0m
+[4.664s] [ 46%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ear_msgs/action/plan_path__type_support.cpp.o[0m
+[4.756s] [ 48%] [32m[1mLinking CXX shared library libear_msgs__rosidl_typesupport_c.so[0m
+[4.794s] [ 51%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ear_msgs/srv/detail/register__type_support.c.o[0m
+[4.794s] [ 51%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ear_msgs/srv/detail/centerline__type_support.c.o[0m
+[4.795s] [ 53%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ear_msgs/srv/detail/segment_ear__type_support.c.o[0m
+[4.800s] [ 54%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ear_msgs/action/detail/plan_path__type_support.c.o[0m
+[4.832s] [ 56%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ear_msgs/srv/detail/segment_ear__type_support.cpp.o[0m
+[4.871s] [ 57%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ear_msgs/srv/detail/centerline__type_support.cpp.o[0m
+[4.874s] [ 59%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ear_msgs/srv/detail/register__type_support.cpp.o[0m
+[4.878s] [ 60%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ear_msgs/action/detail/plan_path__type_support.cpp.o[0m
+[4.910s] [ 62%] [32m[1mLinking C shared library libear_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.914s] [ 62%] Built target ear_msgs__rosidl_typesupport_c
+[5.070s] [ 62%] Built target ear_msgs__rosidl_typesupport_introspection_c
+[5.083s] [ 65%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ear_msgs/srv/detail/dds_fastrtps/register__type_support.cpp.o[0m
+[5.083s] [ 65%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ear_msgs/srv/detail/dds_fastrtps/segment_ear__type_support.cpp.o[0m
+[5.084s] [ 67%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ear_msgs/action/detail/dds_fastrtps/plan_path__type_support.cpp.o[0m
+[5.084s] [ 68%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ear_msgs/srv/detail/dds_fastrtps/centerline__type_support.cpp.o[0m
+[5.103s] [ 70%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ear_msgs/srv/detail/centerline__type_support_c.cpp.o[0m
+[5.103s] [ 71%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ear_msgs/srv/detail/segment_ear__type_support_c.cpp.o[0m
+[5.107s] [ 73%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ear_msgs/srv/detail/register__type_support_c.cpp.o[0m
+[5.368s] [ 75%] [32mBuilding CXX object CMakeFiles/ear_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ear_msgs/action/detail/plan_path__type_support_c.cpp.o[0m
+[5.427s] [ 76%] [32m[1mLinking CXX shared library libear_msgs__rosidl_typesupport_cpp.so[0m
+[5.645s] [ 76%] Built target ear_msgs__rosidl_typesupport_cpp
+[5.774s] [ 78%] [32m[1mLinking CXX shared library libear_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.902s] [ 78%] Built target ear_msgs__rosidl_typesupport_introspection_cpp
+[5.922s] [ 79%] [32m[1mLinking CXX shared library libear_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.030s] [ 79%] Built target ear_msgs__rosidl_typesupport_fastrtps_c
+[6.073s] [ 81%] [32m[1mLinking CXX shared library libear_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.192s] [ 81%] Built target ear_msgs__rosidl_typesupport_fastrtps_cpp
+[6.213s] [ 81%] Built target ear_msgs
+[6.234s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.891s] [ 82%] Built target ear_msgs__py
+[6.912s] [ 87%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_py.dir/rosidl_generator_py/ear_msgs/srv/_register_s.c.o[0m
+[6.912s] [ 87%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_py.dir/rosidl_generator_py/ear_msgs/srv/_centerline_s.c.o[0m
+[6.912s] [ 89%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_py.dir/rosidl_generator_py/ear_msgs/srv/_segment_ear_s.c.o[0m
+[6.912s] [ 89%] [32mBuilding C object CMakeFiles/ear_msgs__rosidl_generator_py.dir/rosidl_generator_py/ear_msgs/action/_plan_path_s.c.o[0m
+[7.078s] [ 90%] [32m[1mLinking C shared library libear_msgs__rosidl_generator_py.so[0m
+[7.166s] [ 90%] Built target ear_msgs__rosidl_generator_py
+[7.185s] [ 95%] [32mBuilding C object CMakeFiles/ear_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/ear_msgs/_ear_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.185s] [ 95%] [32mBuilding C object CMakeFiles/ear_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ear_msgs/_ear_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.185s] [ 95%] [32mBuilding C object CMakeFiles/ear_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ear_msgs/_ear_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.312s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/ear_msgs/ear_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[7.312s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/ear_msgs/ear_msgs_s__rosidl_typesupport_c.so[0m
+[7.319s] [100%] [32m[1mLinking C shared module rosidl_generator_py/ear_msgs/ear_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.368s] [100%] Built target ear_msgs_s__rosidl_typesupport_c
+[7.368s] [100%] Built target ear_msgs_s__rosidl_typesupport_introspection_c
+[7.396s] [100%] Built target ear_msgs_s__rosidl_typesupport_fastrtps_c
+[7.409s] Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_msgs' returned '0': /usr/bin/cmake --build /home/micka/orlsurg/ros2_ws/build/ear_msgs -- -j12 -l12
+[7.410s] Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_msgs': /usr/bin/cmake --install /home/micka/orlsurg/ros2_ws/build/ear_msgs
+[7.418s] -- Install configuration: ""
+[7.419s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/rosidl_interfaces/ear_msgs
+[7.420s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/srv/SegmentEar.json
+[7.421s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/srv/Centerline.json
+[7.421s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/srv/Register.json
+[7.421s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/action/PlanPath.json
+[7.421s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs
+[7.422s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action
+[7.422s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/plan_path.h
+[7.422s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail
+[7.423s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__struct.h
+[7.423s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__functions.c
+[7.423s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__type_support.h
+[7.423s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__functions.h
+[7.424s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__description.c
+[7.424s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__type_support.c
+[7.424s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv
+[7.425s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/segment_ear.h
+[7.425s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/register.h
+[7.425s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail
+[7.425s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__functions.c
+[7.425s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__type_support.h
+[7.425s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__functions.c
+[7.426s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__struct.h
+[7.426s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__functions.h
+[7.426s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__type_support.h
+[7.426s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__functions.h
+[7.426s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__type_support.c
+[7.426s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__functions.h
+[7.427s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__description.c
+[7.427s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__description.c
+[7.427s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__struct.h
+[7.427s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__type_support.h
+[7.427s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__type_support.c
+[7.427s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__description.c
+[7.428s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__struct.h
+[7.428s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__type_support.c
+[7.428s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__functions.c
+[7.428s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/centerline.h
+[7.428s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/msg
+[7.428s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.429s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/environment/library_path.sh
+[7.429s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/environment/library_path.dsv
+[7.429s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_generator_c.so
+[7.430s] -- Set non-toolchain portion of runtime path of "/home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_generator_c.so" to ""
+[7.430s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs
+[7.430s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action
+[7.430s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail
+[7.431s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__rosidl_typesupport_fastrtps_c.h
+[7.431s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv
+[7.431s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail
+[7.431s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__rosidl_typesupport_fastrtps_c.h
+[7.431s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__rosidl_typesupport_fastrtps_c.h
+[7.431s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__rosidl_typesupport_fastrtps_c.h
+[7.431s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/msg
+[7.431s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.431s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_typesupport_fastrtps_c.so
+[7.432s] -- Set non-toolchain portion of runtime path of "/home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.432s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs
+[7.432s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action
+[7.432s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail
+[7.432s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__rosidl_typesupport_introspection_c.h
+[7.432s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__type_support.c
+[7.432s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv
+[7.433s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail
+[7.433s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__rosidl_typesupport_introspection_c.h
+[7.433s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__rosidl_typesupport_introspection_c.h
+[7.433s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__type_support.c
+[7.433s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__type_support.c
+[7.433s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__type_support.c
+[7.433s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__rosidl_typesupport_introspection_c.h
+[7.433s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/msg
+[7.434s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.434s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_typesupport_introspection_c.so
+[7.434s] -- Set non-toolchain portion of runtime path of "/home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.434s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_typesupport_c.so
+[7.435s] -- Set non-toolchain portion of runtime path of "/home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_typesupport_c.so" to ""
+[7.435s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs
+[7.435s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action
+[7.435s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/plan_path.hpp
+[7.435s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail
+[7.435s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__struct.hpp
+[7.435s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__builder.hpp
+[7.435s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__type_support.hpp
+[7.435s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__traits.hpp
+[7.436s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv
+[7.436s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/register.hpp
+[7.436s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/centerline.hpp
+[7.436s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail
+[7.436s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__builder.hpp
+[7.436s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__struct.hpp
+[7.436s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__type_support.hpp
+[7.437s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__type_support.hpp
+[7.437s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__traits.hpp
+[7.437s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__builder.hpp
+[7.437s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__builder.hpp
+[7.437s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__type_support.hpp
+[7.437s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__traits.hpp
+[7.438s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__struct.hpp
+[7.438s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__struct.hpp
+[7.438s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__traits.hpp
+[7.438s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/segment_ear.hpp
+[7.438s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/msg
+[7.438s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.438s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs
+[7.438s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action
+[7.438s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail
+[7.439s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__rosidl_typesupport_fastrtps_cpp.hpp
+[7.439s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/dds_fastrtps
+[7.439s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv
+[7.439s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail
+[7.439s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__rosidl_typesupport_fastrtps_cpp.hpp
+[7.439s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__rosidl_typesupport_fastrtps_cpp.hpp
+[7.439s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__rosidl_typesupport_fastrtps_cpp.hpp
+[7.440s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/dds_fastrtps
+[7.440s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/msg
+[7.440s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.440s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.441s] -- Set non-toolchain portion of runtime path of "/home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.441s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs
+[7.441s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action
+[7.441s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail
+[7.441s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__rosidl_typesupport_introspection_cpp.hpp
+[7.442s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/action/detail/plan_path__type_support.cpp
+[7.442s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv
+[7.442s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail
+[7.442s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__rosidl_typesupport_introspection_cpp.hpp
+[7.442s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__rosidl_typesupport_introspection_cpp.hpp
+[7.442s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__type_support.cpp
+[7.442s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/register__rosidl_typesupport_introspection_cpp.hpp
+[7.442s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/centerline__type_support.cpp
+[7.443s] -- Installing: /home/micka/orlsurg/ros2_ws/install/include/ear_msgs/ear_msgs/srv/detail/segment_ear__type_support.cpp
+[7.443s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_typesupport_introspection_cpp.so
+[7.444s] -- Set non-toolchain portion of runtime path of "/home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.444s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_typesupport_cpp.so
+[7.445s] -- Set non-toolchain portion of runtime path of "/home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_typesupport_cpp.so" to ""
+[7.445s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/environment/pythonpath.sh
+[7.445s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/environment/pythonpath.dsv
+[7.445s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs-0.0.1-py3.12.egg-info
+[7.446s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs-0.0.1-py3.12.egg-info/PKG-INFO
+[7.446s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs-0.0.1-py3.12.egg-info/top_level.txt
+[7.446s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs-0.0.1-py3.12.egg-info/SOURCES.txt
+[7.446s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs-0.0.1-py3.12.egg-info/dependency_links.txt
+[7.446s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs
+[7.447s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/_ear_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.447s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/action
+[7.447s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/action/_plan_path_s.c
+[7.447s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/action/_plan_path.py
+[7.448s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/action/__init__.py
+[7.448s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv
+[7.448s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv/_segment_ear.py
+[7.448s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv/_centerline.py
+[7.448s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv/_centerline_s.c
+[7.449s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv/_register_s.c
+[7.449s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv/_register.py
+[7.449s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv/_segment_ear_s.c
+[7.449s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv/__init__.py
+[7.449s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/ear_msgs_s__rosidl_typesupport_c.so
+[7.449s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/ear_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.450s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/_ear_msgs_s.ep.rosidl_typesupport_c.c
+[7.450s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/_ear_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.450s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/ear_msgs_s__rosidl_typesupport_introspection_c.so
+[7.450s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/__init__.py
+[7.492s] Listing '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs'...
+[7.492s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/__init__.py'...
+[7.492s] Listing '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/action'...
+[7.492s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/action/__init__.py'...
+[7.492s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/action/_plan_path.py'...
+[7.492s] Listing '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv'...
+[7.492s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv/__init__.py'...
+[7.492s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv/_centerline.py'...
+[7.492s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv/_register.py'...
+[7.492s] Compiling '/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/srv/_segment_ear.py'...
+[7.497s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/ear_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.497s] -- Set non-toolchain portion of runtime path of "/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/ear_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[7.498s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/ear_msgs_s__rosidl_typesupport_introspection_c.so
+[7.498s] -- Set non-toolchain portion of runtime path of "/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/ear_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[7.499s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/ear_msgs_s__rosidl_typesupport_c.so
+[7.499s] -- Set non-toolchain portion of runtime path of "/home/micka/orlsurg/ros2_ws/install/lib/python3.12/site-packages/ear_msgs/ear_msgs_s__rosidl_typesupport_c.so" to ""
+[7.499s] -- Installing: /home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_generator_py.so
+[7.500s] -- Set non-toolchain portion of runtime path of "/home/micka/orlsurg/ros2_ws/install/lib/libear_msgs__rosidl_generator_py.so" to ""
+[7.500s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/srv/SegmentEar.idl
+[7.500s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/srv/Centerline.idl
+[7.500s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/srv/Register.idl
+[7.500s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/action/PlanPath.idl
+[7.501s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/srv/SegmentEar.srv
+[7.501s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/srv/Centerline.srv
+[7.501s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/srv/Register.srv
+[7.501s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/action/PlanPath.action
+[7.501s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/package.xml
+[7.502s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages
+[7.502s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages/ear_msgs
+[7.502s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/ear_msgs
+[7.502s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/ear_msgs
+[7.502s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/environment/ament_prefix_path.sh
+[7.502s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/environment/ament_prefix_path.dsv
+[7.503s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/environment/path.sh
+[7.503s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/environment/path.dsv
+[7.503s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/local_setup.bash
+[7.503s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/local_setup.sh
+[7.503s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/local_setup.zsh
+[7.503s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/local_setup.dsv
+[7.503s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/package.dsv
+[7.504s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ament_index/resource_index/packages/ear_msgs
+[7.504s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/export_ear_msgs__rosidl_generator_cExport.cmake
+[7.504s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/export_ear_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.505s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/export_ear_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.505s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/export_ear_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.505s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ear_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.505s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ear_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.505s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ear_msgs__rosidl_typesupport_cExport.cmake
+[7.505s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ear_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.506s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/export_ear_msgs__rosidl_generator_cppExport.cmake
+[7.506s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/export_ear_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.506s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/export_ear_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.506s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ear_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.506s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ear_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.506s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ear_msgs__rosidl_typesupport_cppExport.cmake
+[7.507s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ear_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.507s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/export_ear_msgs__rosidl_generator_pyExport.cmake
+[7.507s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/export_ear_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.507s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/rosidl_cmake-extras.cmake
+[7.507s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.508s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.508s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.508s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.508s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.508s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.508s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ear_msgsConfig.cmake
+[7.508s] -- Installing: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/cmake/ear_msgsConfig-version.cmake
+[7.509s] -- Up-to-date: /home/micka/orlsurg/ros2_ws/install/share/ear_msgs/package.xml
+[7.511s] Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_msgs' returned '0': /usr/bin/cmake --install /home/micka/orlsurg/ros2_ws/build/ear_msgs

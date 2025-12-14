@@ -1,0 +1,6 @@
+Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_centerline': /usr/bin/cmake /home/micka/orlsurg/ros2_ws/src/ear_centerline -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/micka/orlsurg/ros2_ws/install
+Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_centerline' returned '0': /usr/bin/cmake /home/micka/orlsurg/ros2_ws/src/ear_centerline -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/micka/orlsurg/ros2_ws/install
+Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_centerline': /usr/bin/cmake --build /home/micka/orlsurg/ros2_ws/build/ear_centerline -- -j12 -l12
+Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_centerline' returned '0': /usr/bin/cmake --build /home/micka/orlsurg/ros2_ws/build/ear_centerline -- -j12 -l12
+Invoking command in '/home/micka/orlsurg/ros2_ws/build/ear_centerline': /usr/bin/cmake --install /home/micka/orlsurg/ros2_ws/build/ear_centerline
+Invoked command in '/home/micka/orlsurg/ros2_ws/build/ear_centerline' returned '0': /usr/bin/cmake --install /home/micka/orlsurg/ros2_ws/build/ear_centerline

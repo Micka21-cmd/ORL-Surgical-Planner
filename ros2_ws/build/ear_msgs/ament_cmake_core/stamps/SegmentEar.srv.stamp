@@ -1,0 +1,4 @@
+string mri_path
+---
+string mask_path
+string mesh_path

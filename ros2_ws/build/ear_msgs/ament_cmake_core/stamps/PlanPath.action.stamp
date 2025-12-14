@@ -1,0 +1,13 @@
+# Goal
+geometry_msgs/PoseStamped entry
+geometry_msgs/PoseStamped target
+float32 tool_diam_mm
+float32 safety_margin_mm
+---
+# Result
+nav_msgs/Path path
+float32 min_clearance_mm
+float32 est_time_s
+---
+# Feedback
+float32 progress

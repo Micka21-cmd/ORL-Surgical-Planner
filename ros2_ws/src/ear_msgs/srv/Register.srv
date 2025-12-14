@@ -1,0 +1,3 @@
+string mesh_path
+---
+geometry_msgs/TransformStamped mri_to_world

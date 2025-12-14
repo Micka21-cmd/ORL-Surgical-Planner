@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ear_msgs/srv/Register.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/TransformStamped.idl"
+
+module ear_msgs {
+  module srv {
+    struct Register_Request {
+      string mesh_path;
+    };
+    struct Register_Response {
+      geometry_msgs::msg::TransformStamped mri_to_world;
+    };
+  };
+};

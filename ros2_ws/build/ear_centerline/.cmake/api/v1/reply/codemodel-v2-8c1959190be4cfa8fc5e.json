@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0b8eea2bda9840c6fd84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ear_centerline",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ear_centerline_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ear_centerline_egg-8ca540ff06440d550133.json",
+					"name" : "ament_cmake_python_build_ear_centerline_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ear_centerline::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ear_centerline-00c003fb76d61e163bb3.json",
+					"name" : "ament_cmake_python_copy_ear_centerline",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ear_centerline_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ear_centerline_setup-8f82735e459d678ec404.json",
+					"name" : "ament_cmake_python_copy_ear_centerline_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ear_centerline_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ear_centerline_uninstall-89bf2d5ff0b2cd5448ce.json",
+					"name" : "ear_centerline_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8c97a71f5c771e2e5102.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/micka/orlsurg/ros2_ws/build/ear_centerline",
+		"source" : "/home/micka/orlsurg/ros2_ws/src/ear_centerline"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

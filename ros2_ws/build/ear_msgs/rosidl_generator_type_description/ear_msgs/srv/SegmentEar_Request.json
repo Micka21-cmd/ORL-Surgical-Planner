@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ear_msgs/srv/SegmentEar_Request",
+      "fields": [
+        {
+          "name": "mri_path",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ear_msgs/srv/SegmentEar_Request",
+      "hash_string": "RIHS01_2cbcfc9fcf16fd49169a5c51f16b7fe322fc9bc370f4a2f180ef98652a876c58"
+    }
+  ]
+}

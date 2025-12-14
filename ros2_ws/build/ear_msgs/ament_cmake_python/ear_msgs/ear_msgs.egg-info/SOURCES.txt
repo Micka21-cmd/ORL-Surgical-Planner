@@ -1,0 +1,6 @@
+setup.py
+ear_msgs/__init__.py
+ear_msgs.egg-info/PKG-INFO
+ear_msgs.egg-info/SOURCES.txt
+ear_msgs.egg-info/dependency_links.txt
+ear_msgs.egg-info/top_level.txt

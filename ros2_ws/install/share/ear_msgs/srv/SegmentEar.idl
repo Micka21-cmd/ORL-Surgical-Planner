@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ear_msgs/srv/SegmentEar.srv
+// generated code does not contain a copyright notice
+
+
+module ear_msgs {
+  module srv {
+    struct SegmentEar_Request {
+      string mri_path;
+    };
+    struct SegmentEar_Response {
+      string mask_path;
+
+      string mesh_path;
+    };
+  };
+};
